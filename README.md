@@ -57,3 +57,7 @@ for empty database, first time, its need enter data for team:
 name and slug. Its need one time.
 
 For add more resources, you can use "New Reseller User" button.
+
+Create some tests, that check main application functional.
+For run tests, use command:
+php artisan test tests/Feature/UserResourceTest.php
